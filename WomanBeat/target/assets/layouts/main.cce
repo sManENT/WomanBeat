@@ -1,15 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Scene designWidth="480" designHeight="320"
+<Scene designWidth="960" designHeight="640"
        positionX="0"
        positionY="0" anchorPointX="0" anchorPointY="0"
        sizeType="Percent" width="1" height="1">
     <Layer anchorPointX="0" anchorPointY="0" sizeType="Percent" width="1" height="1">
 
-        <Sprite name="bgSprite" texture="textures/main.plist/HelloWorld.png" positionX="241.0" positionY="162.0">
-            <Button name="closeButton" positionX="441.0" positionY="284.0" textureNormal="textures/main.plist/CloseNormal.png"
-                    texturePressed="textures/main.plist/CloseSelected.png"/>
+        <Component name="org.ccj.game.womanbeat.MainController"/>
+        <Sprite texture="textures/shangchang.png" positionX="-2.5" positionY="2.5" anchorPointX="0"
+                anchorPointY="0" name="bgMarket">
+
         </Sprite>
-        <Component name="org.ccj.game.hello.SceneController"/>
+        <Sprite texture="textures/main.plist/xiaosan.png" positionX="490.0" positionY="147.5" name="aimGirl"/>
+        <Label name="scoreLabel" text="0" positionX="480" positionY="450" fontSize="50" anchorPointX="0"
+               anchorPointY="0" zorder="100"/>
+        <Label text="time:" fontName="" fontSize="30" positionX="100" positionY="550" anchorPointX="0"
+               anchorPointY="0" zorder="100" />
+        <Label name="timeLabel" text="0" fontSize="30" positionX="230" positionY="550" anchorPointX="0" anchorPointY="0"
+               zorder="100" />
     </Layer>
 </Scene>

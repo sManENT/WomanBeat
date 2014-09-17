@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="960" designHeight="640"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+
+    <Layer anchorPointX="0" anchorPointY="0" sizeType="Percent" width="1" height="1">
+        <Sprite texture="textures/result.png" positionX="478.3333" positionY="321.66666" name="bgResult" />
+        <Label text="0" name="scoreLabel" positionX="505.0" positionY="528.3333" fontSize="50" anchorPointX="0"
+               anchorPointY="0" zorder="100"/>
+        <Component name="org.ccj.game.womanbeat.ResultController"/>
+    </Layer>
+</Scene>

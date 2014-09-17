@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Scene designWidth="960" designHeight="640"
+       positionX="0"
+       positionY="0" anchorPointX="0" anchorPointY="0"
+       sizeType="Percent" width="1" height="1">
+
+    <Layer anchorPointX="0" anchorPointY="0" sizeType="Percent" width="1" height="1">
+        <Sprite texture="textures/logo960x640.png" positionX="480.0" positionY="320.0"/>
+        <Component name="org.ccj.game.womanbeat.LoadingController"/>
+    </Layer>
+</Scene>

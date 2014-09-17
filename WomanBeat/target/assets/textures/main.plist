@@ -4,44 +4,31 @@
 <dict>
 	<key>frames</key>
 	<dict>
-		<key>CloseNormal.png</key>
+		<key>stage.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{0,0},{40,40}}</string>
+			<string>{{0,0},{308,45}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{40,40}}</string>
+			<string>{{0,0},{308,45}}</string>
 			<key>sourceSize</key>
-			<string>{40,40}</string>
+			<string>{308,45}</string>
 		</dict>
-		<key>CloseSelected.png</key>
+		<key>xiaosan.png</key>
 		<dict>
 			<key>frame</key>
-			<string>{{42,0},{40,40}}</string>
+			<string>{{310,0},{303,351}}</string>
 			<key>offset</key>
 			<string>{0,0}</string>
 			<key>rotated</key>
 			<false/>
 			<key>sourceColorRect</key>
-			<string>{{0,0},{40,40}}</string>
+			<string>{{0,0},{303,351}}</string>
 			<key>sourceSize</key>
-			<string>{40,40}</string>
-		</dict>
-		<key>HelloWorld.png</key>
-		<dict>
-			<key>frame</key>
-			<string>{{84,0},{480,320}}</string>
-			<key>offset</key>
-			<string>{0,0}</string>
-			<key>rotated</key>
-			<false/>
-			<key>sourceColorRect</key>
-			<string>{{0,0},{480,320}}</string>
-			<key>sourceSize</key>
-			<string>{480,320}</string>
+			<string>{303,351}</string>
 		</dict>
 	</dict>
 	<key>metadata</key>

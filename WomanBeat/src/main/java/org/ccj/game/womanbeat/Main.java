@@ -1,4 +1,4 @@
-package org.ccj.game.hello;
+package org.ccj.game.womanbeat;
 
 /**
  *  * Copyright(c) Shanghai YiJun Network Technologies Inc. All right reserved.
@@ -28,8 +28,8 @@ import org.ccj.editor.cce.NodeReader;
  */
 public class Main {
 
-    public static final int DESIGN_WIDTH = 480;
-    public static final int DESIGN_HEIGHT = 320;
+    public static final int DESIGN_WIDTH = 960;
+    public static final int DESIGN_HEIGHT = 640;
 
     public static void mainScene() {
         String paths[] = {
@@ -42,7 +42,7 @@ public class Main {
         director.setDisplayStats(true);
 
         director.getOpenGLView().setDesignResolutionSize(DESIGN_WIDTH, DESIGN_HEIGHT, GLView.POLICY_EXACT_FIT);
-        director.runWithScene(NodeReader.create().readScene("layouts/main.cce"));
+        director.runWithScene(NodeReader.create().readScene("layouts/loading.cce"));
     }
 
     public static void main(String[] args) {
